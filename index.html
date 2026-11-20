@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex">
+<title>Clipping Studio sign-in</title>
+<link rel="stylesheet" href="style.css">
+<script src="forward.js" defer></script>
+</head>
+<body>
+<main>
+  <h1>Clipping Studio</h1>
+  <p id="msg">Sending the sign-in back to Clipping Studio on this PC...</p>
+  <p id="manual" hidden>If Clipping Studio did not show "Connected", copy this whole address and paste it in the studio
+     (Post it &gt; Add account &gt; "Paste the address"):</p>
+  <p><a id="go" hidden>Open Clipping Studio</a></p>
+  <textarea id="addr" readonly hidden rows="3"></textarea>
+  <p class="small">This page only passes the sign-in to the studio running on your own PC (127.0.0.1). It stores nothing,
+     uses no cookies and no tracking. You can close this tab.</p>
+</main>
+</body>
+</html>
